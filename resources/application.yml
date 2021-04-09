@@ -1,0 +1,17 @@
+server:
+  port: 9134
+spring:
+  mail:
+    host: smtp.163.com
+    username: xxxx
+    password: xxxx
+    default-encoding: utf-8
+    port: 25
+    protocol: smtp
+    properties:
+      mail:
+        debug:
+          false
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
